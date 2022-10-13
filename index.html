@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Five</title>
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap">
+    
+</head>
+<body> 
+    <!-- Start Settings Box -->
+
+    <div class="settings-box">
+        <div class="toggle-settings">
+            <i class="fa-solid fa-gear  icon-gear"></i>
+        </div>
+        <div class="settings-container">
+            <div class="option-box">
+                <h4>Colors</h4>
+                <ul class="colors-list">
+                    <li class="active" data-color="#ff9800"></li>
+                    <li data-color="#f44336"></li>
+                    <li data-color="#673ab7"></li>
+                    <li data-color="#2196f3"></li>
+                    <li data-color="#2cbf32"></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <h4>Random Backgrounds</h4>
+                <div class="random-backgrounds">
+                <span class="yes active" data-background="yes">Yes</span>
+                <span class="no"  data-background="no">No</span>
+                </div>   
+            </div>
+
+            <div class="option-box">
+                <h4>Show Bullests</h4>
+                <div class="bullets-option">
+                <span class="yes active" data-display="show">Yes</span>
+                <span class="no"  data-display="hide">No</span>
+                </div>   
+            </div>
+            <button class="reset-options">Reset Options</button>
+        </div>
+    </div>
+    <!-- End Settings Box -->
+
+
+    <!-- Start Nav Bullets -->
+    <div class="nav-bullets">
+        <div class="bullet" data-section=".about-us">
+            <div class="tooltip">About Us</div>
+        </div>
+        <div class="bullet" data-section=".skills">
+            <div class="tooltip">Our Sports</div>
+        </div>
+        <div class="bullet" data-section=".gallery">
+            <div class="tooltip">Our Gallery</div>
+        </div>
+        <div class="bullet" data-section=".timeline">
+            <div class="tooltip">Timeline</div>
+        </div>
+        <div class="bullet" data-section=".feature">
+            <div class="tooltip">Features</div>
+        </div>
+        <div class="bullet" data-section=".testimonials">
+            <div class="tooltip">Testimonials</div>
+        </div>
+        
+    </div>
+    <!-- End Nav Bullets -->
+
+
+
+    <!-- Start Landing Page -->
+    <div class="landing-page">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="header-area">
+                <div class="logo">Sport</div>
+                <div class="links-container">
+                    <ul class="links">
+                        <li><a href="#" class="active" data-section=".about-us">About</a></li>
+                        <li><a href="#"  data-section=".skills"> Our Sports</a></li>
+                        <li><a href="#"  data-section=".gallery">Gallery</a></li>
+                        <li><a href="#"  data-section=".timeline">Timeline</a></li>
+                        <li><a href="#"  data-section=".feature">Features</a></li>
+                        <li><a href="#"  data-section=".testimonials">Testimonials</a></li>
+                    </ul>
+                    <div class="toggle-menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div> 
+            </div>
+        </div>     
+        <div class="intro-text">
+            <h1>We Are <span><strong>Sport</strong></span> Agency</h1>
+            <div class="landing-button">
+                <a href="#" class="join">Sign Up</a>
+                <a href="https://en.wikipedia.org/wiki/Sports_agent" target="_blank" class="learn-more">Learn More</a>
+            </div>
+           
+        </div>
+    </div>
+   
+
+     <!-- End Landing Page -->
+
+      <!-- Start About Us -->
+      <div class="container">
+        <div class="about-us">
+           <div class="info-box">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum veniam deserunt harum impedit et id, modi amet dicta illum repellat, architecto quisquam ab corrupti, vitae fugit corporis sit ut labore?</p>
+            <a href="#" class="about-more">Learn More</a>
+            <div class="about-socila">
+                <a href="https://www.instagram.com/mortaza_altai/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/%D9%85%D8%B1%D8%AA%D8%B6%D9%89-%D9%85%D8%AD%D9%85%D8%AF-3549a3224/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/Mortazamhammed" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+           </div>
+           <div class="image-box">
+            <img src="imgs/about-img.jpg" alt="">
+           </div>
+        </div>
+      </div>
+     
+      <!-- Start Our Skills -->
+
+      <div class="skills"> 
+        <div class="container">
+            <h2>Our Sports</h2>
+            <div class="skills-box">
+                <div class="skill-name">Football</div>
+                <div class="skill-progress">
+                    <span data-progress="80%"></span>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skill-name">Tennis</div>
+                <div class="skill-progress">
+                    <span  data-progress="75%"></span>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skill-name">Basketball</div>
+                <div class="skill-progress">
+                    <span  data-progress="70%"></span>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skill-name">Handball</div>
+                <div class="skill-progress">
+                    <span  data-progress="90%"></span>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skill-name">Futsal</div>
+                <div class="skill-progress">
+                    <span  data-progress="60%"></span>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skill-name">Volleyball</div>
+                <div class="skill-progress">
+                    <span  data-progress="85%"></span>
+                </div>
+            </div>
+            
+        </div>
+      </div>
+      <!-- End Our Skills -->
+
+      <!-- Strat Video -->
+      <div class="video">
+        <h2>Videos</h2>
+        <div class="container">
+            <div class="main-video">
+                    <video src="imgs/video.mp4" controls muted autoplay ></video>
+                    <h3 class="title">01. run man </h3>
+                
+            </div>
+            
+            <div class="list-video">
+                <div class="vid active">
+                    <video src="imgs/video.mp4"></video>
+                    <h3 class="title">01. Run man</h3>
+                </div>
+                <div class="vid">
+                    <video src="imgs/video1.mp4"></video>
+                    <h3 class="title">02. Football</h3>
+                </div>
+                <div class="vid">
+                    <video src="imgs/video 2.mp4"></video>
+                    <h3 class="title">03. Basketball</h3>
+                </div>
+                <div class="vid">
+                    <video src="imgs/video 3.mp4"></video>
+                    <h3 class="title">01. Tennis</h3>
+                </div>
+                <div class="vid">
+                    <video src="imgs/video 4.mp4"></video>
+                    <h3 class="title">02. Golf</h3>
+                </div>
+                <div class="vid">
+                    <video src="imgs/video 5.mp4"></video>
+                    <h3 class="title">03. Volley ball</h3>
+                </div>
+                <div class="vid">
+                    <video src="imgs/video.mp4"></video>
+                    <h3 class="title">01. run man</h3>
+                </div>
+                <div class="vid">
+                    <video src="imgs/video.mp4"></video>
+                    <h3 class="title">02. run man</h3>
+                </div>
+                <div class="vid">
+                    <video src="imgs/video.mp4"></video>
+                    <h3 class="title">03. run man</h3>
+                </div>
+            </div>
+            
+
+            
+            
+        </div>
+      </div>
+      <!-- End Video -->
+
+
+       <!-- Strat Our Gallery -->
+
+       <div class="gallery">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <div class="images-box" data-left="0">
+                <img src="imgs/gallery01.jpg" alt="image-1">
+                <img src="imgs/gallery02.jpg" alt="image-2">
+                <img src="imgs/gallery03.jpg" alt="image-3">
+                <img src="imgs/gallery04.jpg" alt="image-4">
+                <img src="imgs/gallery05.jpg" alt="image-5">
+                <img src="imgs/gallery06.jpg" alt="image-6">
+                <img src="imgs/gallery07.jpg" alt="image-7">
+                <img src="imgs/gallery08.jpg" alt="image-8">
+                <img src="imgs/gallery09.jpg" alt="image-9">
+                <img src="imgs/gallery10.jpg" alt="image-10">
+                <img src="imgs/gallery11.jpg" alt="image-11">
+                <img src="imgs/gallery12.jpg" alt="image-12">
+                <img src="imgs/gallery13.jpg" alt="image-13">
+                <img src="imgs/gallery14.jpg" alt="image-14">
+                <img src="imgs/gallery15.jpg" alt="image-15">
+            </div>
+        </div>
+       </div>
+
+       <!-- End Our Gallery -->
+
+
+       <!-- Strat Timeline -->
+
+       <div class="timeline">
+          <div class="container">
+            <div class="timeline-content">
+                <div class="year">2018</div>
+                <div class="left" data-position="0">
+                    <div class="content">
+                        <i class="fa-solid fa-futbol"></i>
+                        <h3>FootBall</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse doloremque qui facilis sit placeat aspernatur iure porro sunt deserunt consequuntur! Veritatis, ex! Natus, maxime? Cumque atque aliquam molestias hic soluta!</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right" data-position="0">
+                    <div class="content">
+                        <h3>Tennis</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse doloremque qui facilis sit placeat aspernatur iure porro sunt deserunt consequuntur! Veritatis, ex! Natus, maxime? Cumque atque aliquam molestias hic soluta!</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="year">2022</div>
+                <div class="left"data-position="0">
+                    <div class="content">  
+                        <h3>Basketball</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse doloremque qui facilis sit placeat aspernatur iure porro sunt deserunt consequuntur! Veritatis, ex! Natus, maxime? Cumque atque aliquam molestias hic soluta!</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right" data-position="0">
+                    <div class="content">
+                        <i class="fa-solid fa-baseball"></i>
+                        <h3>Handball</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse doloremque qui facilis sit placeat aspernatur iure porro sunt deserunt consequuntur! Veritatis, ex! Natus, maxime? Cumque atque aliquam molestias hic soluta!</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+          </div>
+       </div>
+
+       
+       <!-- End Timeline -->
+
+
+       <!-- Start Our Feature -->
+       <div class="feature">
+        <h2>Our Feature</h2>
+        <div class="container">
+            <div class="content">
+                <div class="feat-box">
+                    <img src="imgs/feat1.png" alt="">
+                    <h4>Football</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi   </p>
+                </div>
+                <div class="feat-box">
+                    <img src="imgs/feat2.png" alt="">
+                    <h4>Basketball</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi   </p>
+                </div>
+                <div class="feat-box">
+                    <img src="imgs/feat3.jpg" alt="">
+                    <h4>Tennis</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi   </p>
+                </div>
+                <div class="feat-box">
+                    <img src="imgs/feat4.png" alt="">
+                    <h4>Handball</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi   </p>
+                </div>
+                <div class="feat-box">
+                    <img src="imgs/feat5.jpg" alt="">
+                    <h4>Futsal</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi   </p>
+                </div>
+                <div class="feat-box">
+                    <img src="imgs/feat6.png" alt="">
+                    <h4>Volleyball</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi   </p>
+                </div>
+
+            </div>
+           
+            
+        </div>
+       </div>
+       <!-- End Our Feature -->
+
+
+        <!-- Start Testimonials -->
+        <div class="testimonials">
+            <h2>Testimonials</h2>
+            <div class="container">     
+                <div class="content">
+                <div class="slide" id="slide">
+                    <div class="card">
+                        <div class="profile">
+                            <div class="informaition">
+                                <img src="imgs/test1.png">
+                                <div>
+                                    <h3>Mohamed Ali</h3>
+                                    <p>Player Football</p>
+                                </div>
+                            </div>
+                            <ul class="stars">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                            </ul>
+                        </div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
+                             beatae voluptatem quisquam sequi quaerat dolores 
+                             quidem veritatis! Dicta ipsa architecto
+                             repellat commodi sed, maiores.</p>
+                    </div>
+                    <div class="card">
+                        <div class="profile">
+                            <div class="informaition">
+                                <img src="imgs/test2.png">
+                                <div>
+                                    <h3>Nemo Luis</h3>
+                                    <p>Player Basketball</p>
+                                </div>
+                            </div>
+                            <ul class="stars">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                            </ul>
+                        </div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
+                             beatae voluptatem quisquam sequi quaerat dolores 
+                             quidem veritatis! Dicta ipsa architecto
+                             repellat commodi sed, maiores.</p>
+                    </div>
+                    <div class="card">
+                        <div class="profile">
+                            <div class="informaition">
+                                <img src="imgs/test3.png">
+                                <div>
+                                    <h3>Ali Karrar</h3>
+                                    <p>Player Tennis</p>
+                                </div>
+                            </div>
+                            <ul class="stars">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                        </div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
+                             beatae voluptatem quisquam sequi quaerat dolores 
+                             quidem veritatis! Dicta ipsa architecto
+                             repellat commodi sed, maiores.</p>
+                    </div>
+                    <div class="card">
+                        <div class="profile">
+                            <div class="informaition">
+                                <img src="imgs/test4.png">
+                                <div>
+                                    <h3>Leo John</h3>
+                                    <p>Player Handball</p>
+                                </div>
+                            </div>
+                            <ul class="stars">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                            </ul>
+                        </div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
+                             beatae voluptatem quisquam sequi quaerat dolores 
+                             quidem veritatis! Dicta ipsa architecto
+                             repellat commodi sed, maiores.</p>
+                    </div>
+                    <div class="card">
+                        <div class="profile">
+                            <div class="informaition">
+                                <img src="imgs/test5.png">
+                                <div>
+                                    <h3>Ahmed Sayed</h3>
+                                    <p>Player Football</p>
+                                </div>
+                            </div>
+                            <ul class="stars">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                            </ul>
+                        </div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
+                             beatae voluptatem quisquam sequi quaerat dolores 
+                             quidem veritatis! Dicta ipsa architecto
+                             repellat commodi sed, maiores.</p>
+                    </div>
+                    <div class="card">
+                        <div class="profile">
+                            <div class="informaition">
+                                <img src="imgs/test6.png">
+                                <div>
+                                    <h3>Mustafa Hasan</h3>
+                                    <p>Player Football</p>
+                                </div>
+                            </div>
+                            <ul class="stars">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                        </div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
+                             beatae voluptatem quisquam sequi quaerat dolores 
+                             quidem veritatis! Dicta ipsa architecto
+                             repellat commodi sed, maiores.</p>
+                    </div>    
+                </div>
+                <div class="sidebar">
+                    <img id="upArrow" src="imgs/up.png">
+                    <img id="downArrow" src="imgs/down.png">
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Testimonials -->
+
+
+
+        <!-- Start Contact Us -->
+        <div class="contact">
+            <div class="overlay"></div>
+            <div class="container">
+                <h2>Contact-Us</h2>
+                <form action="">
+                  <div class="left">
+                        <input type="text" placeholder="Your Name" name="username">
+                        <input type="text" placeholder="Your Phone" name="phone">
+                        <input type="email" placeholder="Your Email" name="email">
+                        <input type="text" placeholder="Subject" name="subject">             
+                    </div>
+                    <div class="right">
+                        <textarea name="message" placeholder="Your Message"></textarea>
+                        <input type="submit" value="Send">         
+                    </div>
+                </form>
+
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96
+                    748.74301294085!2d-74.11201533473441!3d40.731262282415486!2m3!
+                    1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25370329a0e1
+                    d%3A0xe1bcdc2adcfee473!2z2YbZitmI2KLYsdmD2Iwg2YbZitmIINis2YrYsdiz2YrY
+                    jCDYp9mE2YjZhNin2YrYp9iqINin2YTZhdiq2K3Yr9ip!5e0!3m2!1sar!2siq!4v1
+                    659471173731!5m2!1sar!2siq" width="auto" height="auto" style="border:0;"
+                     allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+        </div>
+        <!-- End Contact Us -->
+
+
+        <!-- Start Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="content">
+                    <div class="footer-col">
+                        <h4>company</h4>
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">our services</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                            <li><a href="#">affiliate program</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">shipping</a></li>
+                            <li><a href="#">returns</a></li>
+                            <li><a href="#">order status</a></li>
+                            <li><a href="#">payment options</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>online shop</h4>
+                        <ul>
+                            <li><a href="#">watch</a></li>
+                            <li><a href="#">bag</a></li>
+                            <li><a href="#">shoes</a></li>
+                            <li><a href="#">dress</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">Made By Murtada</p>
+       </footer>
+        <!-- End Footer -->
+
+        
+       
+
+
+
+    <script src="JS/main.js"></script>
+</body>
+</html>
